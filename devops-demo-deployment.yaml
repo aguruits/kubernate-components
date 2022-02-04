@@ -16,10 +16,10 @@ spec:
         app: devops-demo
     spec:
       containers:
-      - name: devops-demo
-        image: aguruits/devops-demo
-        ports:
-          - containerPort: 8080
+        - name: devops-demo
+          image: aguruits/devops-demo
+          ports:
+            - containerPort: 8080
 
 ---
 apiVersion: v1
